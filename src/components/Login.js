@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import styles from './app.module.css'
 
 const Login = ({ submitForm }) => {
     const [values, setvalues] = useState({
@@ -13,18 +14,18 @@ const Login = ({ submitForm }) => {
 
     }
     return (
-        <div className="container" style={{
-            backgroundImage: 'url(/static/back.png)', backgroundPosition: 'center center',
+        <div className={styles.container} style={{
+            backgroundImage: 'url(/static/background3.jpg)', backgroundPosition: 'center center',
             backgroundRepeat: 'no-repeat',
             backgroundAttachment: 'fixed',
             backgroundSize: 'cover'
         }}>
-            <div style={{ height: '50%',background:'#EAF6F6' }} className="app-wrapper">
-                <form style={{ height: '50%' }} className="form-wrapper">
-                    <div className="email">
+            <div style={{ height: '50%',background:'#EAF6F6' }} className={styles.appwrapper}>
+                <form style={{ height: '60%' }} >
+                    <div className={styles.email}>
                         <laber className="label">Email</laber>
                         <input
-                            className="input"
+                            className={styles.input}
                             type="email"
                             name="email"
                             value={values.email}
@@ -32,10 +33,10 @@ const Login = ({ submitForm }) => {
                         />
 
                     </div>
-                    <div className="password">
+                    <div className={styles.password}>
                         <laber className="label">Password</laber>
                         <input
-                            className="input"
+                            className={styles.input}
                             type="password"
                             name="password"
                             value={values.password}
@@ -44,7 +45,7 @@ const Login = ({ submitForm }) => {
 
                     </div>
                     <div>
-                        <button className="submit" onClick={handleFormSubmit}>Login</button>
+                        <button className={styles.submit} onClick={handleFormSubmit}>Login</button>
                     </div>
                 </form>
             </div>

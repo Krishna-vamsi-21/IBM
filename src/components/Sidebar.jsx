@@ -8,6 +8,7 @@ import {
     FaShoppingBag,
     FaThList
 }from "react-icons/fa";
+import {FcAbout} from 'react-icons/fc'
 import { NavLink } from 'react-router-dom';
 
 
@@ -20,34 +21,20 @@ const Sidebar = ({children}) => {
             name:"Dashboard",
             icon:<FaTh/>
         },
-        {
-            path:"/about",
-            name:"About",
-            icon:<FaUserAlt/>
-        },
+       
         {
             path:"/analytics",
             name:"Analytics",
             icon:<FaRegChartBar/>
         },
         {
-            path:"/comment",
-            name:"Comment",
-            icon:<FaCommentAlt/>
+            path:"/about",
+            name:"About",
+            icon:<FcAbout style={{color:'black'}}/>
         },
-        {
-            path:"/product",
-            name:"Product",
-            icon:<FaShoppingBag/>
-        },
-        {
-            path:"/productList",
-            name:"Product List",
-            icon:<FaThList/>
-        }
     ]
     return (
-        <div className="container">
+        <div style={{display:'flex'}}>
            <div style={{width: isOpen ? "200px" : "50px"}} className="sidebar">
                <div className="top_section">
                    <h1 style={{display: isOpen ? "block" : "none"}} className="logo">Logo</h1>
@@ -64,7 +51,7 @@ const Sidebar = ({children}) => {
                    ))
                }
            </div>
-           <main>{children}</main>
+           <main style={{width:'100%'}}>{children}</main>
         </div>
     );
 };

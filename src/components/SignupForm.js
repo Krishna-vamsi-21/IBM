@@ -1,11 +1,14 @@
 import React,{useState} from 'react'
-import styles from './app.modules.css'
+import styles from './app.module.css'
 
 const SignupForm = ({submitForm}) => {
     const [values,setvalues] = useState({
         fullname:'',
         email:'',
-        password:''}
+        password:'',
+        Age:'',
+        weight:'',
+        height:''    }
     );
     const handleFormSubmit = ()=>{
 
@@ -14,47 +17,80 @@ const SignupForm = ({submitForm}) => {
 
     }
     return(
-        <div className="container">
-            <div className="app-wrapper">
+        <div className={styles.container} style={{
+            backgroundImage: 'url(/static/background3.jpg)', backgroundPosition: 'center center',
+            backgroundRepeat: 'no-repeat',
+            backgroundAttachment: 'fixed',
+            backgroundSize: 'cover'
+        }}>
+            <div className={styles.appwrapper}>
                 <div>
                     <h2 className="title">Create Account</h2>
                 </div>
                 <form className="form-wrapper">
-                    <div className="name">
+                    <div className={styles.name}>
                         <laber className="label">Full Name</laber>
                         <input 
-                            className="input" 
+                            className={styles.input} 
                             type="text" 
                             name="fullname" 
                             value={values.fullname}
                             onChange={handleChange} 
-                        />
-                        
+                        /> 
                     </div>
-                    <div className="email">
+                    <div className={styles.email}>
                         <laber className="label">Email</laber>
                         <input 
-                            className="input" 
+                            className={styles.input} 
                             type="email" 
                             name="email" 
                             value={values.email}
                             onChange={handleChange} 
-                        />
-                        
+                        />   
                     </div>
-                    <div className="password">
+                    <div className={styles.name}>
                         <laber className="label">Password</laber>
                         <input 
-                            className="input" 
+                            className={styles.input} 
                             type="password" 
                             name="password"  
                             value={values.password} 
                             onChange={handleChange}
+                        />  
+                    </div>
+                    <div className={styles.name}>
+                        <laber className="label">Age</laber>
+                        <input 
+                            className={styles.input} 
+                            type="text" 
+                            name="fullname" 
+                            value={values.Age}
+                            onChange={handleChange} 
+                        />  
+                    </div>
+                    <div className={styles.name}>
+                        <laber className="label">Weight</laber>
+                        <input 
+                            className={styles.input} 
+                            type="text" 
+                            name="fullname" 
+                            value={values.weight}
+                            onChange={handleChange} 
+                        />  
+                    </div>
+                    <div className={styles.name}>
+                        <laber className="label">Height</laber>
+                        <input 
+                            className={styles.input} 
+                            type="text" 
+                            name="fullname" 
+                            value={values.height}
+                            onChange={handleChange} 
                         />
-                       
+                        
                     </div>
                     <div>
-                        <button className="submit" onClick={handleFormSubmit}>Sign Up</button>
+                        <button className={styles.submit} onClick={handleFormSubmit}>Sign Up</button>
                     </div>
                 </form>
             </div>
