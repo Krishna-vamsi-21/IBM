@@ -13,7 +13,6 @@
 .top_section{
     display: flex;
     align-items:center;
-    padding:20px 15px;
 }
 .logo{
     font-size: 30px;
@@ -31,7 +30,7 @@
     transition: all 0.5s;
 }
 .link:hover{
-    background:lightskyblue;
+    background:rgb(48,48,48) grey;
     color: #000;
     transition: all 0.5s;
 }
