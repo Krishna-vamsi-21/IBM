@@ -34,7 +34,6 @@ const SignupForm = ({submitForm}) => {
                             className={styles.input} 
                             type="text" 
                             name="fullname" 
-                            value={values.fullname}
                             onChange={handleChange} 
                         /> 
                     </div>
@@ -44,7 +43,7 @@ const SignupForm = ({submitForm}) => {
                             className={styles.input} 
                             type="email" 
                             name="email" 
-                            value={values.email}
+                            
                             onChange={handleChange} 
                         />   
                     </div>
@@ -54,7 +53,7 @@ const SignupForm = ({submitForm}) => {
                             className={styles.input} 
                             type="password" 
                             name="password"  
-                            value={values.password} 
+                    
                             onChange={handleChange}
                         />  
                     </div>
@@ -64,7 +63,7 @@ const SignupForm = ({submitForm}) => {
                             className={styles.input} 
                             type="text" 
                             name="fullname" 
-                            value={values.Age}
+                   
                             onChange={handleChange} 
                         />  
                     </div>
@@ -74,7 +73,7 @@ const SignupForm = ({submitForm}) => {
                             className={styles.input} 
                             type="text" 
                             name="fullname" 
-                            value={values.weight}
+               
                             onChange={handleChange} 
                         />  
                     </div>
@@ -84,7 +83,7 @@ const SignupForm = ({submitForm}) => {
                             className={styles.input} 
                             type="text" 
                             name="fullname" 
-                            value={values.height}
+         
                             onChange={handleChange} 
                         />
                         

@@ -28,7 +28,6 @@ const Login = ({ submitForm }) => {
                             className={styles.input}
                             type="email"
                             name="email"
-                            value={values.email}
                             onChange={handleChange}
                         />
 
@@ -39,7 +38,6 @@ const Login = ({ submitForm }) => {
                             className={styles.input}
                             type="password"
                             name="password"
-                            value={values.password}
                             onChange={handleChange}
                         />
 
