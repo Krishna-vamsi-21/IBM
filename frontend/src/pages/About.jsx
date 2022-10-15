@@ -21,9 +21,9 @@ const About = () => {
         <pre>
         Greetings from Nutri Pure. Our software is committed to educating you about the truth behind the trends so you can concentrate on improvement rather than perfection. We respond to your most common inquiries about nutrition and fitness with verified, factual responses.
 
-We serve as a dependable source of current knowledge on all aspects of fitness and nutrition that are important to your health and vitality. We put a lot of effort into developing and perfecting our 5000+ collection of well curated, thorough, fact-checked material.
+        We serve as a dependable source of current knowledge on all aspects of fitness and nutrition that are important to your health and vitality. We put a lot of effort into developing and perfecting our 5000+ collection of well curated, thorough, fact-checked material.
 
-The goal of the Nutri Pure Review Board is to provide you with practical, science-based recommendations that will motivate you to make healthy daily choices.
+        The goal of the Nutri Pure Review Board is to provide you with practical, science-based recommendations that will motivate you to make healthy daily choices.
         </pre>
         </p>
         </div>
