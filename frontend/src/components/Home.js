@@ -2,7 +2,8 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+    It acts as a doorway to trustworthy data on nutrition, healthy eating.</div>
   )
 }
 

@@ -1,5 +1,4 @@
 import React from 'react';
-
 const About = () => {
     return (
         <div>
@@ -18,14 +17,28 @@ const About = () => {
       </div>
       <h3>OUR NUTRI FOOD </h3><h4><subscript>YOUR DAILY NEED PRODUCTS</subscript></h4> 
         <p>
-        <pre>
-        Greetings from Nutri Pure. Our software is committed to educating you about the truth behind the trends so you can concentrate on improvement rather than perfection. We respond to your most common inquiries about nutrition and fitness with verified, factual responses.
-
-We serve as a dependable source of current knowledge on all aspects of fitness and nutrition that are important to your health and vitality. We put a lot of effort into developing and perfecting our 5000+ collection of well curated, thorough, fact-checked material.
-
-The goal of the Nutri Pure Review Board is to provide you with practical, science-based recommendations that will motivate you to make healthy daily choices.
-        </pre>
+        
+        Greetings from Nutri Pure. Our software is committed to educating you about the truth behind the trends so you can concentrate on improvement rather than perfection. 
+        Delicious healthy meal planned by our website that provides guidance on how to choose healthy diets to burn calories.
+        We respond to your most common inquiries about nutrition and fitness with verified, factual responses.
+        </p><br></br>
+        <p>
+        We serve as a dependable source of current knowledge on all aspects of fitness and nutrition that are important to your health and vitality. 
+        We put a lot of effort into developing and perfecting our 500+ collection of well curated, thorough, fact-checked material.<br></br>
+        Fruit is often low in calories and high in fibre, both of which may aid in weight loss.
+        As we approach our centennial, we see numerous opportunities in our industry that build on our strengths in the areas of education and professional development, science policy and advocacy, nutrition science-based information and practise, and member engagement to become the leading authority on all things nutrition.
         </p>
+        <br></br>
+<p>
+
+Our website is continuously updated to stay current.
+
+Our website gets content recommendations from the foods that contain the most calories.
+The goal of the Nutri Pure Review Board is to provide you with practical, science-based recommendations that will motivate you to make healthy daily choices.
+</p>
+        
+        
+        
         </div>
     );
 };
