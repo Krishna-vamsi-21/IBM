@@ -1,5 +1,8 @@
 import React from 'react';
-import Graph from '../components/Graph';
+import Graph1 from '../components/Graph1';
+import Graph2 from '../components/Graph2';
+import Graph3 from '../components/Graph3';
+
 
 const Analytics = () => {
     return (
@@ -19,17 +22,17 @@ const Analytics = () => {
       </div>
             <div>
 
-                <Graph />
+                <Graph1 />
                 <h3 align="center">Today</h3>
             </div>
             <div>
 
-                <Graph />
+                <Graph2 />
                 <h3 align="center">Yesterday</h3>
             </div>
             <div>
 
-                <Graph />
+                <Graph3 />
                 <h3 align="center">Day before Yesterday</h3>
             </div>
         </div>

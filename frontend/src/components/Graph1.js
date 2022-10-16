@@ -1,7 +1,7 @@
 import React from 'react'
 import Chart from 'react-apexcharts'
 
-function Graph() {
+function Graph1() {
     return (
         <div>
             <Chart
@@ -9,7 +9,7 @@ function Graph() {
                 type="radialBar"
 
 
-                series= {[67]}
+                series= {[54]}
                //colors= {["#20E647"]}
                 options={{
                     labels: ["Calories"],
@@ -63,4 +63,4 @@ function Graph() {
     )
 }
 
-export default Graph
+export default Graph1
