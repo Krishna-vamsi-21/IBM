@@ -122,7 +122,7 @@ const SignupForm = ({ submitForm }) => {
                         href="/login"
                         style={{ marginTop: "20px", display: "inline-block" }}
                     >
-                        Already have an account login
+                        Already have an account?  Login
                     </a>
                 </form>
             </div>
