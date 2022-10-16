@@ -7,7 +7,7 @@ const Dashboard = () => {
     setimg(URL.createObjectURL(file));
   };
   return (
-    <div style={{ margin: 0, background: "#FEFBF6", height: "100vh" }}>
+    <div style={{ margin: 0, background: "#FEFBF6" }}>
       <div
         style={{
           height: "4rem",
